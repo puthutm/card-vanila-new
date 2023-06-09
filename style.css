@@ -1,0 +1,91 @@
+
+.box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    width: 272px;
+    background: hsl(0, 0%, 100%);
+    padding: 16px;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px 0 rgb(146, 146, 146);
+}
+
+.img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  .card-icon {
+    position: relative;
+    top: -288px;
+    left: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 100px;
+    background-color: floralwhite;
+  }
+  .fa-heart {
+    font-size:24px;
+    color: red;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between; 
+    margin-top: -36px;
+  }
+  .flex-container > div {
+    justify-content: center;
+    padding: 5px;
+  }
+  .img-profile {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+  }
+  .title-name{
+    flex-grow: 1;
+  }
+  .btn-font {
+    font-size: 12px !important;
+    color: blue;
+    border: 0 !important;
+    background-color: #fff;
+    margin: 8px;
+  }
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+  .fa-user-plus {
+    font-size: 12px
+
+  }
+  .btn-bottom {
+    
+  }
+.btn {
+  margin: auto;
+  font-size: 14px;
+  width: 49%;
+  height: 40px;
+  border-radius: 4px;
+  padding: 8px;
+  border-color: blue;
+  color: blue;
+  background-color: #fff;
+  cursor: pointer;  
+}
+.btn-box-1 {
+  background-color: blue;
+  border: none;
+  color: #fff;
+}
